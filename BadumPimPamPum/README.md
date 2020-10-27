@@ -16,5 +16,6 @@ y que depende de gustos personales intentaremos ser lo mas objetivos que podamos
 
 ##  Enlaces útiles 
 
-[Base de datos pokémon](https://foxdot.org/)
+[Página oficial de FoxDot](https://foxdot.org/)
+[Más información sobre cómo instalarlo](https://pypi.org/project/FoxDot/)
 

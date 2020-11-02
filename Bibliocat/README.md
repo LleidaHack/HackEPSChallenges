@@ -1,23 +1,23 @@
 # BiblioCAT :books:
 
 ## Introducción
-Las libros nos permiten descubrir múndos de fantasia así como entender mejor el mundo en el que vivimos. Nos permiten aprender todo tipo de cosas, desde "Teo va a la escuela" a "Compilers: Principles, Techniques, and Tools".
+Los libros nos permiten descubrir mundos de fantasía así como entender mejor el mundo en el que vivimos. Nos permiten aprender todo tipo de cosas, desde "Teo va a la escuela" a "Compilers: Principles, Techniques, and Tools".
 
 
-Las librerias de Cataluña tienen un sistema de intercanvio de libros, de forma que, quando alguien se dirige a una biblioteca a buscar un libro para aprender a programar Haskell, y el/la bibliotecario/a le diga "I eso qué és?!?!?", haya la posibilidad de pedirle a otra biblioteca que tenga el libro que el/la valiente aspirante/a a aprender Haskell pedia.
+Las librerias de Cataluña tienen un sistema de intercanvio de libros, de forma que, cuando alguien se dirige a una biblioteca a buscar un libro para aprender a programar Haskell, y el/la bibliotecario/a le diga "I eso qué és?!?!?", haya la posibilidad de pedirle a otra biblioteca que tenga el libro que el/la valiente aspirante a aprender Haskell pedía.
 
 
 ## Especificaciones
-* Lo que les gustaria a las bibliotecas és maximizar el tiempo en que los libros estan generando valor, es decir, el tiempo en que un libro esta en manos de algún usuario. *Cada libro genera un valor X. Se tendra maximizar teniendo en quenta el tiempo màximo T*
-* Se ha de tener en cuenta, que mientras un libro esta siendo transportado este *NO* genera valor. 
-* Dependiendo del lector, i el libro que vaia a leer (en funcion de si le gusta mas o menos), variarà el *tiempo T* en que se lee el libro.
-* Si hay varias personas que quieren leer un libro, estas se añadiran a una lista de espera, i esperaran a recibir noticias de la biblioteca quando esté disponible.
-* Una persona, como màximo, podra tener tres libros a la vez. *OJO: NO tres libros por biblioteca, tres libros en TOTAL*. 
+* Lo que les gustaría a las bibliotecas es maximizar el tiempo en que los libros estan generando valor, es decir, el tiempo en que un libro está en manos de algún usuario. **Cada libro genera un valor X. Se tendra maximizar teniendo en quenta el tiempo màximo T**
+* Hay de tener en cuenta, que mientras un libro está siendo transportado este **NO** genera valor. 
+* Dependiendo del lector, y el libro que vaya a leer (en función de si le gusta más o menos), variará el **tiempo  en que se lee el libro**.
+* Si hay varias personas que quieren leer un libro, estas se añadirán a una lista de espera, y esperarán a recibir noticias de la biblioteca cuando esté disponible.
+* Una persona, como máximo, podrá tener tres libros a la vez. **OJO: NO tres libros por biblioteca, tres libros en TOTAL**. 
 
 
 ## Input File
 ``` 
-tiempo = "T", tiempo_global
+tiempo = "T", tiempo_total
 biblioteca = "L", id, { % { tiempo transporte id j | j <- [ 0 .. id_max] }  % }
 id = % numero unico por tipo %
 tiempo transporte id j = % tiempo de tranporte de un libro desde la
@@ -48,8 +48,7 @@ R 2 1 0 1 1 1 2 1 3 1 4 1
 R 3 2 2 5 4 5
 ```
 
-Vemos que el valor del tiempo T en el que se ha de realizar la optimización es de 
-6.
+Vemos que el valor del tiempo T en el que se ha de realizar la optimización es de 6.
 
 En este ejemplo, hay tres bibliotecas (L), donde el coste de llevar un libro
 de la biblioteca ''0'' hasta la ''1'' es de 2 i el coste de llevar
@@ -63,7 +62,7 @@ en el estado inicial, y el tercero es el valor que produce el libro en
 ser leido por un lector.
 
 
-Finalmente, se puede apreciar que el lector con id ``0'', que esta afiliado
+Finalmente, se puede apreciar que el lector con id ''0'', que esta afiliado
 a la biblioteca ''0'', quiere leer los libros ''0'' y ''1'', que tardará en
 hacerlo ''10'' y ''2'' respectivamente.
 

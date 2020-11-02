@@ -1,8 +1,5 @@
 #+TITLE: Validator
 #+AUTHOR: sergisi
 
-* PROJ Validator
-** DONE Test State
-** DONE Reader.read
-** DONE parser input
-** DONE parser output
+* Como ejecutar
+~python3 -m src~

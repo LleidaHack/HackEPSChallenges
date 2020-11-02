@@ -67,7 +67,7 @@ a la biblioteca ''0'', quiere leer los libros ''0'' y ''1'', que tardará en
 hacerlo ''10'' y ''2'' respectivamente.
 
 ## Output File
-## Gramática:
+### Gramática:
 ```
 mover libro = id libro, "m", id biblioteca
 leer libro = id libro, "r", id lector

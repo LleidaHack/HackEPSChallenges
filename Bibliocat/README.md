@@ -152,6 +152,14 @@ Mientras, el siguiente output:
 Generará 20 puntos, pues el libro 4 es leido por dos
 lectores.
 
+
+## Benchmarks
+Se pueden descargar las benchmarks en: https://mega.nz/file/DrxQBRKA#9CHHhBS6kiYAswzbK0ZWWgpGNVmJh-RRycRrNDMpzEA
+
+
+El zip es un poco gordo, al generar las benchmarks generamos una bastante grande (16 GB de benchmark) i despues de todo el esfuerzo 
+que hizo nuestro pc nos parecía feo no ponerla. A ver que podéis hacer con ella. :wink:
+
 ## Entrega i Evaluación
 Para hacer valida vuestra participación nos tendréis que entregar el output de vuestro programa con el formato correcto descrito en el apartado anterior. Para comprobar la score de vuestra solución, podéis descargaros y ejecutar el programa que utilizaremos para determinar vuestra score. 
 La suma de las scores que saquéis en cada una de las bencharks sera el resultado final i el valor que determinara el ganador.

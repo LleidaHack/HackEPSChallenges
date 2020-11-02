@@ -165,6 +165,6 @@ Para hacer valida vuestra participación nos tendréis que entregar el output de
 La suma de las scores que saquéis en cada una de las bencharks será el resultado final y el valor que determinará el ganador.
 
 
-# Creadors del repte
-+ quimpm
-+ sergisi
+# Creadores del reto
++ [quimpm](https://github.com/quimpm) :panda_face:
++ [sergisi](https://github.com/sergisi/) :earth_africa:

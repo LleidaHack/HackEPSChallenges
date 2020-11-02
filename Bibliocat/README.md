@@ -4,7 +4,7 @@
 Los libros nos permiten descubrir mundos de fantasía así como entender mejor el mundo en el que vivimos. Nos permiten aprender todo tipo de cosas, desde "Teo va a la escuela" a "Compilers: Principles, Techniques, and Tools".
 
 
-Las librerias de Cataluña tienen un sistema de intercanvio de libros, de forma que, cuando alguien se dirige a una biblioteca a buscar un libro para aprender a programar Haskell, y el/la bibliotecario/a le diga "I eso qué és?!?!?", haya la posibilidad de pedirle a otra biblioteca que tenga el libro que el/la valiente aspirante a aprender Haskell pedía.
+Las librerías de Cataluña tienen un sistema de intercanvio de libros, de forma que, cuando alguien se dirige a una biblioteca a buscar un libro para aprender a programar Haskell, y el/la bibliotecario/a le diga "Y eso qué es?!?!?", haya la posibilidad de pedirle a otra biblioteca que tenga el libro que el/la valiente aspirante a aprender Haskell pedía.
 
 
 ## Especificaciones
@@ -51,9 +51,9 @@ R 3 2 2 5 4 5
 Vemos que el valor del tiempo T en el que se ha de realizar la optimización es de 6.
 
 En este ejemplo, hay tres bibliotecas (L), donde el coste de llevar un libro
-de la biblioteca ''0'' hasta la ''1'' es de 2 i el coste de llevar
+de la biblioteca ''0'' hasta la ''1'' es de 2 y el coste de llevar
 un libro de la biblioteca ''1'' hasta la ''0'' es de 3. Además, el coste de
-llevar un libro de una biblioteca a si misma siempre es de 0.
+llevar un libro de una biblioteca a sí misma siempre es de 0.
 
 
 En el caso de los libros (B),  el primer argumento es el id del libro, 
@@ -94,10 +94,10 @@ Con el output:
 3 r 0
 ```
 
-Generará un valor de 15 puntos, pues el ultimo
+Generará un valor de 15 puntos, pues el último
 libro se lee fuera del tiempo establecido (10).
 Este se leerá a partir del día 5 (empezando en 0),
-pues los 5 primeros esta ya leyendo 3 libros.
+pues los 5 primeros está ya leyendo 3 libros.
 
 
 Mientras, este fichero:
@@ -109,7 +109,7 @@ Mientras, este fichero:
 2 r 0
 ```
 
-Generará 20 puntos, pues todos los libros son leidos
+Generará 20 puntos, pues todos los libros son leídos
 dentro del terminio.
 
 
@@ -137,9 +137,9 @@ Entonces, este fichero:
 Generará 15 puntos, ya que:
 + El lector 0 tiene los 5 primeros días ocupados.
 + El libro 4 está hasta el octavo día ocupado, los
-   5 primeros sin hacer nada, y del $[5, 8)$ esta
+   5 primeros sin hacer nada, y del $[5, 8)$ está
    siendo leído por el lector 1
-+ El libro 4 se empieza a leer del 8o día hasta el 11o.
++ El libro 4 se empieza a leer del 8º día hasta el 11º.
 
 Mientras, el siguiente output:
 ```
@@ -149,7 +149,7 @@ Mientras, el siguiente output:
 4 r 1
 4 r 0
 ```
-Generará 20 puntos, pues el libro 4 es leido por dos
+Generará 20 puntos, pues el libro 4 es leído por dos
 lectores.
 
 
@@ -157,12 +157,12 @@ lectores.
 Se pueden descargar las benchmarks en: https://mega.nz/file/DrxQBRKA#9CHHhBS6kiYAswzbK0ZWWgpGNVmJh-RRycRrNDMpzEA
 
 
-El zip es un poco gordo, al generar las benchmarks generamos una bastante grande (16 GB de benchmark) i despues de todo el esfuerzo 
-que hizo nuestro pc nos parecía feo no ponerla. A ver que podéis hacer con ella. :wink:
+El zip es un poco gordo, al generar las benchmarks generamos una bastante grande (16 GB de benchmark) y después de todo el esfuerzo 
+que hizo nuestro pc nos parecía feo no ponerla. A ver qué podéis hacer con ella. :wink:
 
-## Entrega i Evaluación
+## Entrega y Evaluación
 Para hacer valida vuestra participación nos tendréis que entregar el output de vuestro programa con el formato correcto descrito en el apartado anterior. Para comprobar la score de vuestra solución, podéis descargaros y ejecutar el programa que utilizaremos para determinar vuestra score. 
-La suma de las scores que saquéis en cada una de las bencharks sera el resultado final i el valor que determinara el ganador.
+La suma de las scores que saquéis en cada una de las bencharks será el resultado final y el valor que determinará el ganador.
 
 
 # Creadors del repte

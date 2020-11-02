@@ -30,10 +30,12 @@ class ReaderTest(unittest.TestCase):
         """
         self.reader._timing = [3, 2, 2, 1, 1, 1]
         score, time = self.reader.read(self.books[0], 0, 3)
+        self.assertTrue( self.books[0].id_book not in self.reader._books)
         self.assertEqual(3, score)
         self.assertEqual(6, time)
         self.assertEqual([3, 3, 3, 2, 2, 2], self.reader._timing)
         score, time = self.reader.read(self.books[3], 4, 5)
+        self.assertTrue( self.books[3].id_book not in self.reader._books)
         self.assertEqual(0, score)
         self.assertEqual(7, time)
         self.assertEqual([3, 3, 3, 2, 3, 3], self.reader._timing)
@@ -44,6 +46,7 @@ class ReaderTest(unittest.TestCase):
         """
         self.reader._timing = [3, 2, 3, 3, 1, 1]
         score, time = self.reader.read(self.books[0], 0, 6)
+        self.assertTrue( self.books[0].id_book not in self.reader._books)
         self.assertEqual(0, score)
         self.assertEqual(9, time)
 

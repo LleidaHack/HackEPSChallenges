@@ -23,7 +23,7 @@ id = % numero unico por tipo %
 tiempo transporte id j = % tiempo de tranporte de un libro desde la
               - libreria id hasta j
               %
-libro = "B", id, id biblioteca, valor
+libro = "B", id, valor, id_biblioteca
 valor = % numero %
 lector = "R", id, id biblioteca, { id libro, tiempo lectura }
 tiempo lectura = % numero de tiempo que se

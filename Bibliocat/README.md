@@ -2,7 +2,7 @@
 
 ## Changelog:
 #### 07/11/2020 13:51:00
-Nos hemos dado cuenta de que había un buguillo de integración entre las bench que generamos des del generador con el validador. Al generar libros había dos elementos que estaban girados, el valor y el idbiblioteca. Se ha hecho un update del validador así como del apartado de Input File de este README. Sorry por las molestias, procedemos a fustigar-nos. :pray:
+Nos hemos dado cuenta de que había un buguillo de integración entre las bench que generamos des del generador con el validador. Al generar libros había dos elementos que estaban girados, el valor y el idbiblioteca. Se ha hecho un update del validador así como del apartado de Input File de este README. Sorry por las molestias, procedemos a fustigarnos. :pray:
 
 ## Introducción
 Los libros nos permiten descubrir mundos de fantasía así como entender mejor el mundo en el que vivimos. Nos permiten aprender todo tipo de cosas, desde "Teo va a la escuela" a "Compilers: Principles, Techniques, and Tools".

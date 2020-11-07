@@ -1,6 +1,6 @@
 # BiblioCAT :books:
 
-##Changelog:
+## Changelog:
 #### 07/11/2020 13:51:00
 Nos hemos dado cuenta de que había un buguillo de integración entre las bench que generamos des del generador con el validador. Al generar libros había dos elementos que estaban girados, el valor y el idbiblioteca. Se ha hecho un update del validador así como del apartado de Input File de este README. Sorry por las molestias, procedemos a fustigar-nos. :pray:
 

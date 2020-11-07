@@ -43,7 +43,7 @@ class State:
         num_line, line_str = line
         linesplit = line_str.split()
         assert (
-            len(linesplit) != 3
+            len(linesplit) == 3
         ), f"Line has less or more arguments: num arguments-> {len(linesplit)} in line {num_line}"
         if linesplit[1] == "m":
             self._move_book(linesplit, num_line)

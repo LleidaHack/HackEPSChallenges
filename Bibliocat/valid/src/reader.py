@@ -4,7 +4,7 @@ Reader class declaration.
 """
 from typing import List, Dict, Tuple
 
-from src.book import Book
+from .book import Book
 
 Time = int
 

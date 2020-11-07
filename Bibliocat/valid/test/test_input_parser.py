@@ -22,11 +22,11 @@ class InputParserTest(unittest.TestCase):
             "\nL 0 0 2 3"
             "\nL 1 3 0 4"
             "\nL 2 3 4 0"
-            "\nB 0 0 5"
-            "\nB 1 0 3"
-            "\nB 2 1 10"
+            "\nB 0 5 0"
+            "\nB 1 3 0"
+            "\nB 2 10 1"
             "\nB 3 2 2"
-            "\nB 4 2 8"
+            "\nB 4 8 2"
             "\nR 0 0 0 10 1 2"
             "\nR 1 0 1 1 2 10 3 3"
             "\nR 2 1 0 1 1 1 2 1 3 1 4 1"
@@ -41,11 +41,11 @@ class InputParserTest(unittest.TestCase):
         st = ip.get_state()
         trans = [[0, 2, 3], [3, 0, 4], [3, 4, 0]]
         books = [
-            Book(0, 0, 5),
-            Book(1, 0, 3),
-            Book(2, 1, 10),
+            Book(0, 5, 0),
+            Book(1, 3, 0),
+            Book(2, 10, 1),
             Book(3, 2, 2),
-            Book(4, 2, 8),
+            Book(4, 8, 2),
         ]
         readers = [
             Reader({0: 10, 1: 2}, 0, 32),

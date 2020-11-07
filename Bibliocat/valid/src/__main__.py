@@ -29,7 +29,7 @@ def main():
     args = parser.parse_args()
     state = parse_input(args.inputfile)
     with open(args.output) as fd:
-        reduce(lambda acc, x: acc.process_line(x), enumerate(fd.readlines), state)
+        reduce(lambda acc, x: acc.process_line(x), enumerate(fd.readlines()), state)
     print(f"The Score is {state._score}")
 
 

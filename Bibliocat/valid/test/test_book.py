@@ -11,8 +11,8 @@ class BookTest(unittest.TestCase):
     """
 
     def setUp(self):
-        self.book = Book(1, 0, 3)
-        self.book2 = Book(0, 1, 3)
+        self.book = Book(1, 3, 0)
+        self.book2 = Book(0, 3, 1)
 
     def test_book_creation(self):
         """

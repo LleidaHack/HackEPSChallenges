@@ -15,7 +15,7 @@ class Book:
     id_book: int
     score: int
 
-    def __init__(self, id_book: int, location: int, score: int):
+    def __init__(self, id_book: int, score: int, location: int):
         self._location = location
         self._internal_time = 0
         self.id_book = id_book
